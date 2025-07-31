@@ -8,10 +8,27 @@
 //     age:21,
 //     company:'Oracle'
 // }
+// var userData:{
+//     [key:string]:string|number|undefined
+// }={
+//     name:"Rishav",
+//     age:21,
+//     company:undefined
+// }
+// userData.company="NOKIA"
+// console.log(userData)
 var userData = {
     name: "Rishav",
     age: 21,
-    company: undefined
+    company: "RB MNC's",
+    address: {
+        colony: "jatt colony",
+        house: 1,
+        jattnumber: 1,
+        buildingnumber: 1,
+        pardhannumber: 1,
+        shirtnumber: 1
+    }
 };
 userData.company = "NOKIA";
 console.log(userData);
